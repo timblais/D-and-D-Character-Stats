@@ -1,0 +1,25 @@
+{
+  "name": "d-and-d-character-stats",
+  "version": "1.0.0",
+  "description": "D&D Character Stats generator api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timblais/D-and-D-Character-Stats.git"
+  },
+  "author": "Tim Blais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timblais/D-and-D-Character-Stats/issues"
+  },
+  "homepage": "https://github.com/timblais/D-and-D-Character-Stats#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
